@@ -40,7 +40,7 @@
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
-       href="/">&nbsp;<strong>Hexo</strong>&nbsp;</a>
+       href="/">&nbsp;<strong>小尉尉</strong>&nbsp;</a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -207,6 +207,31 @@
 <!-- Comments -->
 <div class="col-lg-7 mx-auto nopadding-md">
   <div class="container comments mx-auto" id="comments">
+    
+      <br><br>
+      
+      
+  <div class="disqus" style="width:100%">
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = 'http://yoursite.com/2019/12/08/hello-world/';
+        this.page.identifier = '/2019/12/08/hello-world/';
+      };
+      var oldLoad = window.onload;
+      window.onload = function () {
+        var d = document, s = d.createElement('script');
+        s.type = 'text/javascript';
+        s.src = '//' + 'Fluid-dev' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      };
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" target="_blank" rel="nofollow noopener noopener">comments
+        powered by Disqus.</a></noscript>
+  </div>
+
+
     
   </div>
 </div>
